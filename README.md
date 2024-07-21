@@ -2,9 +2,9 @@
 
 - https://github.com/angular-architects/module-federation-plugin/blob/main/libs/mf/tutorial/tutorial.md
 
-- ng new shell --create-application="false"
-- ng generate application shell
-- ng add @angular-architects/module-federation --project shell --type host --port 4200
+- ng new hostapp --create-application="false"
+- ng generate application host
+- ng add @angular-architects/module-federation --project host --type host --port 4200
 
 - ng new mfe1 --create-application="false"
 - ng generate application mfe1
